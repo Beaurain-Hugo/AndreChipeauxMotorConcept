@@ -11,7 +11,73 @@
    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
+   <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
 
+    #info {
+      display:none;
+      position: absolute;
+      width: 400px;
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      background-color: #EEEEEE;
+      border: 2px solid white;
+      padding: 5px;
+      font-size: 14pt;
+      font-family: times new roman;
+      font-weight: bold;
+      font-style: italic;
+      color: black;
+    }
+
+    input {
+      background-color: #FFFFFF;
+      border: none;
+      width: 260px;
+      color: black;
+      font-size: 14pt;
+      font-family: times new roman;
+      font-weight: bold;
+    }
+
+    #canvas {
+      display: block;
+      position: absolute;
+      z-index:0;
+      left: 10px;
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      background-color: #000000;
+    }
+
+    .button{
+      position:absolute;
+      z-index:1;
+      top: 20px;
+      right:25px;
+      background-color: black;
+      color:white;
+      font-size: 3rem;
+    }
+    .menu{
+      transform: translateX(100%);
+      transition: all .8s ease;
+    }
+    .menu-btn--open{
+      width:100%;
+      height:100%;
+      position:absolute;
+      transform: translateX(0);
+      transition: all .8s ease;
+      z-index:1;
+      background-color: black;
+    }
+  </style>
    <!--Librairies JS-->
    <script src="https://animejs.com/lib/anime.min.js"></script>
 </head>
