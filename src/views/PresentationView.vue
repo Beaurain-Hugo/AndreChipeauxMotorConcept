@@ -64,7 +64,7 @@ onMounted(() => {
   <main class="flex flex-col gap-6">
     <div class="p-0 relative overflow-hidden">
 			<div class="h-[90vh] left-0">
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120249.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120249.JPG"/>
  				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120257.jpg"/>
         <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120250.jpg"/>
 				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120253.jpg"/>
