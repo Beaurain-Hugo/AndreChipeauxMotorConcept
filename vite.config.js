@@ -12,3 +12,14 @@ export default defineConfig({
     }
   }
 })
+
+module.exports = {
+  chainWebpack: config => {
+    config.module
+      .rule('js')
+      .test(/\.js$/)
+      .use('babel-loader')
+      .loader('babel-loader')
+      .end();
+  }
+}
