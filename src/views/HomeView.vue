@@ -6,7 +6,7 @@
     }
 
 onMounted(() => {
-  redirectToHomepage()
+//  redirectToHomepage()
 })
 </script>
 <template>
