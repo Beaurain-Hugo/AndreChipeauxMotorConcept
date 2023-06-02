@@ -81,9 +81,9 @@
    <div id="canvas"></div>
    <script setup type="module">
   
-    import * as THREE from '../src/three.js-dev/build/three.module.js';
-    import { OrbitControls } from '../src/three.js-dev/examples/jsm/controls/OrbitControls.js';
-    import { ColladaLoader } from '../src/three.js-dev/examples/jsm/loaders/ColladaLoader.js';
+    import * as THREE from '../three.js-dev/build/three.module.js';
+    import { OrbitControls } from '../three.js-dev/examples/jsm/controls/OrbitControls.js';
+    import { ColladaLoader } from '../three.js-dev/examples/jsm/loaders/ColladaLoader.js';
     var clickInfo = [];
     var animations = []; // tableau qui contient la liste de objets cliquables
     var container = document.getElementById("canvas");
@@ -198,7 +198,7 @@
     
       clock.start();
       var loader = new ColladaLoader();
-      loader.load('../src/models/moteur1.dae', onLoaded, onProgress, onError);
+      loader.load('../models/moteur1.dae', onLoaded, onProgress, onError);
     
       // sources de lumière
       let ambientLight = new THREE.AmbientLight(0x202020);
