@@ -64,17 +64,17 @@ onMounted(() => {
   <main class="flex flex-col gap-6">
     <div class="p-0 relative overflow-hidden">
 			<div class="h-[90vh] left-0">
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120249.jpg"/>
- 				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120257.jpg"/>
-        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120250.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120253.jpg"/>
-        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120245.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120259.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120251.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120254.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120255.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120256.jpg"/>
-        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="@/assets/P1120252.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120249.jpg"/>
+ 				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120257.jpg"/>
+        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120250.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120253.jpg"/>
+        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120245.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120259.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120251.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120254.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120255.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120256.jpg"/>
+        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/P1120252.jpg"/>
 
 			</div>
       <h1 class="absolute z-10 text-4xl font-bona-nova font-bold text-center text-white left-1/2 -translate-x-1/2 top-24 leading-none">André Chipeaux</h1>
