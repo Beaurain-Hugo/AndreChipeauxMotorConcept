@@ -79,40 +79,11 @@
 
   <body x-data="{menuIsOpen : false}">
    <div id="canvas"></div>
-   <button @click="menuIsOpen = !menuIsOpen" class="button bg-black">
-    <span >?</span>
-  </button>
-  <div class="menu" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen && 'menu-btn--open'">
-
-  </div>
-   <div id="info">
-      <table>
-        <tr>
-          <td>Click position:</td>
-          <td><input type="text" id="positions" value="(0;0)" class="info" /></td>
-        </tr>
-        <tr>
-          <td>Clicked object:</td>
-          <td><input type="text" id="obj_name" value="vide" class="info" /></td>
-        </tr>
-        <tr>
-          <td>Action:</td>
-          <td><input type="text" id="action" value="0" class="info" /></td>
-        </tr>
-      </table>
-      <div id="divTexture">
-        <canvas id="canvasTexture" width="256" height="256" />
-      </div>
-    </div>
-  </body>
-  
-  </html>
-  
-  <script type="module">
+   <script type="module">
   
     import * as THREE from '../src/three.js-dev/build/three.module.js';
-    import { OrbitControls } from '../src//three.js-dev/examples/jsm/controls/OrbitControls.js';
-    import { ColladaLoader } from '../src//three.js-dev/examples/jsm/loaders/ColladaLoader.js';
+    import { OrbitControls } from '../src/three.js-dev/examples/jsm/controls/OrbitControls.js';
+    import { ColladaLoader } from '../src/three.js-dev/examples/jsm/loaders/ColladaLoader.js';
     var clickInfo = [];
     var animations = []; // tableau qui contient la liste de objets cliquables
     var container = document.getElementById("canvas");
@@ -21031,4 +21002,35 @@
         animate();
     
     
-    </script>
+  </script>
+   <button @click="menuIsOpen = !menuIsOpen" class="button bg-black">
+    <span >?</span>
+  </button>
+  <div class="menu" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen && 'menu-btn--open'">
+
+  </div>
+   <div id="info">
+      <table>
+        <tr>
+          <td>Click position:</td>
+          <td><input type="text" id="positions" value="(0;0)" class="info" /></td>
+        </tr>
+        <tr>
+          <td>Clicked object:</td>
+          <td><input type="text" id="obj_name" value="vide" class="info" /></td>
+        </tr>
+        <tr>
+          <td>Action:</td>
+          <td><input type="text" id="action" value="0" class="info" /></td>
+        </tr>
+      </table>
+      <div id="divTexture">
+        <canvas id="canvasTexture" width="256" height="256" />
+      </div>
+    </div>
+    
+  </body>
+  
+  </html>
+  
+ 
