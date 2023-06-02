@@ -2,7 +2,7 @@
   import { onMounted } from 'vue';
 
   function redirectToHomepage() {
-        window.location.href="/index.html";
+        window.location.href="/test.html";
     }
 
 onMounted(() => {
