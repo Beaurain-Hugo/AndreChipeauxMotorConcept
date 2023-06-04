@@ -4,6 +4,12 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { ColladaLoader } from "three/examples/jsm/loaders/ColladaLoader";
+
+let scene, renderer, camera;
+ function onLoad() {
+      
+    };
+
 export default {
   name: "ProductView",
   data() {
@@ -25,31 +31,31 @@ export default {
   methods: {
 
     init() {
-      this.scene = new THREE.Scene();
-      this.scene.background = null;
+      scene = new THREE.Scene();
+      scene.background = null;
 
-      this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-      this.renderer.setPixelRatio(window.devicePixelRatio);
-      this.renderer.outputEncoding = THREE.sRGBEncoding;
-      this.renderer.setClearColor(0x000000, 1);
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.outputEncoding = THREE.sRGBEncoding;
+      renderer.setClearColor(0x000000, 1);
       const container = document.getElementById(this.containerId);
-      this.renderer.setSize(container.offsetWidth, container.offsetHeight);
-      container.appendChild(this.renderer.domElement);
+      renderer.setSize(container.offsetWidth, container.offsetHeight);
+      container.appendChild(renderer.domElement);
 
 
 
       // START: Adding camera
-      this.camera = new THREE.PerspectiveCamera(
+      camera = new THREE.PerspectiveCamera(
         45,
         container.offsetWidth / container.offsetHeight,
         0.25,
         20
       );
-      this.camera.position.set(10, 120, 0);
+      camera.position.set(10, 120, 0);
       // END: Adding camera
 
       // START: Adding controls
-      const controls = new OrbitControls(this.camera, this.renderer.domElement);
+      const controls = new OrbitControls(camera, renderer.domElement);
 
       controls.minDistance = 1;
       controls.maxDistance = 1;
@@ -62,10 +68,10 @@ export default {
 
       // sources de lumière
     let ambientLight = new THREE.AmbientLight(0x202020);
-    this.scene.add(ambientLight);
+    scene.add(ambientLight);
     const spotLight = new THREE.SpotLight(0xffffff);
     spotLight.position.set(100, 500, 100);
-    this.scene.add(spotLight);
+    scene.add(spotLight);
       // END: Adding light
 
       
@@ -75,19 +81,20 @@ export default {
       loader.load(
         'src/models/moteur1.dae',
         data => {
-          var object = data.scen;
-          object.position.set(0,0,0);
-          if(this.modelSettings.scale) object.scale.set(this.modelSettings.scale, this.modelSettings.scale, this.modelSettings.scale);
-          this.scene.add(object);
-          this.renderScene();
-          
+          var object = data.scene;
+        object.position.set(0,0,0);
+        if(this.modelSettings.scale) object.scale.set(this.modelSettings.scale, this.modelSettings.scale,     this.modelSettings.scale);
+        scene.add(object);
+        this.renderScene();
         }
+        
       );
       // END: Adding gtlf model
     },
    
+   
     renderScene() {
-      this.renderer.render(this.scene, this.camera);
+      renderer.render(scene, camera);
     },
   
   },
