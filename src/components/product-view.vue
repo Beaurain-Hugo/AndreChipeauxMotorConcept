@@ -6,8 +6,14 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { ColladaLoader } from "three/examples/jsm/loaders/ColladaLoader";
 
 let scene, renderer, camera;
- function onLoad() {
-      
+let dae;
+ function onLoaded(collada){
+       data => {
+        let object = collada.scene;
+        object.position.set(0,0,0);
+        scene.add(object);
+        this.renderScene();
+        }
     };
 
 export default {
@@ -76,17 +82,17 @@ export default {
       // START: Adding gtlf model
       let loader = new ColladaLoader();
       loader.load(
-        'src/models/moteur1.dae',
-        data => {
-          var object = data.scene;
-        object.position.set(0,0,0);
-        scene.add(object);
-        this.renderScene();
+        'src/models/moteur1.dae', function (collada) {
+        dae = collada.scene
+        scene.add( dae );
         }
         
       );
+      
+
       // END: Adding gtlf model
     },
+    
    
    
     renderScene() {
