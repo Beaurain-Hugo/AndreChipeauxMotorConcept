@@ -22,10 +22,7 @@ export default {
       type: String,
       required: true
     },
-    modelSettings: {
-      type: Object,
-      required: true
-    }
+    
   },
   
   methods: {
@@ -83,7 +80,6 @@ export default {
         data => {
           var object = data.scene;
         object.position.set(0,0,0);
-        if(this.modelSettings.scale) object.scale.set(this.modelSettings.scale, this.modelSettings.scale,     this.modelSettings.scale);
         scene.add(object);
         this.renderScene();
         }

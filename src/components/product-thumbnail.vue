@@ -2,7 +2,6 @@
 <div class="product-thumbnail" :id="thumbnailId">
         <product-view
           :container-id="thumbnailId"
-          :model-settings="product.obj3DSettings"
         ></product-view>
       </div>
 </template>
@@ -16,10 +15,7 @@ export default {
     ProductView
   },
   props: {
-    product: {
-      type: Object,
-      required: true
-    },
+    
     thumbnailId: {
       type: String,
       required: true
