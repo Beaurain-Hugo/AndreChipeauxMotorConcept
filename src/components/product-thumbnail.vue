@@ -32,7 +32,7 @@ export default {
 <style>
 .product-thumbnail {
   width: 100%;
-  height: 400px;
+  height: 80vh;
 }
 .title {
   display: flex;
