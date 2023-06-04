@@ -1,20 +1,4 @@
-<template> <div id="info">
-      <table>
-        <tr>
-          <td>Click position:</td>
-          <td><input type="text" id="positions" value="(0;0)" class="info" /></td>
-        </tr>
-        <tr>
-          <td>Clicked object:</td>
-          <td><input type="text" id="obj_name" value="vide" class="info" /></td>
-        </tr>
-        <tr>
-          <td>Action:</td>
-          <td><input type="text" id="action" value="0" class="info" /></td>
-        </tr>
-      </table>
-
-    </div>
+<template> 
 </template>
 <script>
 import * as THREE from "three";
@@ -51,7 +35,6 @@ export default {
       this.renderer.setSize(container.offsetWidth, container.offsetHeight);
       container.appendChild(this.renderer.domElement);
 
-      var clock = new THREE.Clock();
 
 
       // START: Adding camera
@@ -87,7 +70,6 @@ export default {
       
 
       // START: Adding gtlf model
-          clock.start();
       let loader = new ColladaLoader();
       loader.load(
         'src/models/moteur1.dae',
