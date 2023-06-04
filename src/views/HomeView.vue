@@ -18,7 +18,6 @@
 import ProductThumbnail from "@/components/product-thumbnail.vue";
 
 export default {
-  name: "ProductList",
   components: {
     ProductThumbnail,
   },
