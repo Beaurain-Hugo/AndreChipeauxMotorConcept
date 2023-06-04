@@ -10,7 +10,7 @@ const menuFermer = ref(true)
 <template>
   <header>
     <nav class="flex justify-between bg-white font-cabin px-6 py-3 after:absolute after:w-full after:h-0.5 after:top-12 after:left-0  after:bg-red-300 ">
-      <a href="/test.html">
+      <a href="/">
         <img src="@/assets/logoMotorConceptCouleur.svg" alt="Logo de l'entreprise André Chipeaux: Motor Concept" width="200"/>
       </a>
       <ul class="hidden lg:flex gap-11">
@@ -44,7 +44,7 @@ const menuFermer = ref(true)
         <XMarkIcon class="w-8"/>
         <span class="sr-only">Fermer menu</span> 
       </button>
-      <a class="absolute top-3 left-3" href="/index.html">
+      <a class="absolute top-3 left-3" href="/">
         <img src="@/assets/logoMotorConceptCouleur.svg" alt="Vue logo" width="200"/>
       </a>
       <nav class="flex flex-col font-cabin gap-5 text-4xl">
