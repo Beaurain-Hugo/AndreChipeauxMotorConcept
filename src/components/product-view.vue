@@ -21,8 +21,9 @@ export default {
       required: true
     }
   },
-  methods: {
   
+  methods: {
+
     init() {
       this.scene = new THREE.Scene();
       this.scene.background = null;
@@ -44,7 +45,7 @@ export default {
         0.25,
         20
       );
-      this.camera.position.set(10, 120, 50);
+      this.camera.position.set(10, 120, 0);
       // END: Adding camera
 
       // START: Adding controls
@@ -74,7 +75,7 @@ export default {
       loader.load(
         'src/models/moteur1.dae',
         data => {
-          var object = data.scene;
+          var object = data.scen;
           object.position.set(0,0,0);
           if(this.modelSettings.scale) object.scale.set(this.modelSettings.scale, this.modelSettings.scale, this.modelSettings.scale);
           this.scene.add(object);
