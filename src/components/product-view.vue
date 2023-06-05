@@ -20810,7 +20810,12 @@ let translate = cercleCylindre4_1.a0+cercleCylindre4_1.t * (cercleCylindre4_1.a1
     
     let dt = clock.getElapsedTime();
   
-  }
+  },   function onProgress(data) {
+  },
+  
+  function onError(data) {
+    console.error(data);
+  },
         
       );
       
