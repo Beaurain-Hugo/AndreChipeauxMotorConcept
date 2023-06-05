@@ -79,8 +79,10 @@ export default {
       loader.load(
         'src/models/moteur1.dae',   function onLoaded(collada) {
          console.log(loader.load)
+         console.log(collada)
+    console.log(collada.scene)
    let object = collada.scene;
-    console.log(object)
+    
     scene.add(object);
     
     // définition des variables pour chaque objet cliquable / animable
