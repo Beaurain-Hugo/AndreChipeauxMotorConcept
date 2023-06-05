@@ -16,7 +16,7 @@ const { data: voitures, error } = await supabase
     <div class="absolute -z-10 -top-8 left-0 w-full bg-red-400 h-1/2 -skew-y-6"></div>
     <div class="flex flex-col">
       <div class="px-3 py-6 md:px-6 lg:px-10">
-        <h1 class="text-4xl font-bona-nova font-bold text-center text-Extended/blue-gray/750 leading-none">Contact</h1>
+        <h1 class="text-4xl font-bona-nova font-bold text-center text-Extended/blue-gray/750 leading-none">Palmarès</h1>
       </div>
       <img class="h-[200vh]" src="@/assets/palmaresIllustration.jpg" alt="">
       <div class="absolute">

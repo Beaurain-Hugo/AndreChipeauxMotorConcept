@@ -107,7 +107,9 @@ onMounted(() => {
         <div class="flex flex-col gap-4">
           <h2 class="font-bona-nova font-bold text-xl md:text-2xl lg:text-4xl leading-none">André Chipeaux, un travail entièrement manuel</h2>
           <div class="flex justify-between gap-2 items-center font-cabin text-sm md:text-base">
-            <p class="leading-none">Enim laboris fugiat ea do amet cupidatat laboris sint esse sunt id mollit. Culpa eiusmod adipisicing reprehenderit commodo sint pariatur minim et laboris. Sit pariatur minim quis aliquip nostrud anim anim id minim occaecat qui.</p>
+            <div>
+              <p class="leading-none">Pas besoin de machine quand on a ses mains et ses outils ! Les moteurs sont entièrement montés à la main, sans l'intervention de machine. Cela requiert de la rigueur, du sérieux et beaucoup de passion, tout ce qui caractérise André Chipeaux !</p>
+            </div>
             <img class="w-1/4 md:w-1/6" src="@/assets/P1120267_2.jpg" alt="">
           </div>
         </div>
