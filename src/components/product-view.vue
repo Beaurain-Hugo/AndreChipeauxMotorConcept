@@ -75,10 +75,12 @@ export default {
 
       // START: Adding gtlf model 
       let loader = new ColladaLoader();
+               console.log(loader)
       loader.load(
         'src/models/moteur1.dae',   function onLoaded(collada) {
-    let object = collada.scene;
-  console.log(collada.scene)
+         console.log(loader.load)
+   let object = collada.scene;
+    console.log(object)
     scene.add(object);
     
     // définition des variables pour chaque objet cliquable / animable
