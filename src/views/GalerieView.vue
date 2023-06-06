@@ -9,12 +9,18 @@
         <div class="flex flex-col items-center sm:justify-center sm:flex-row m-auto gap-3">
           <img class="w-5/6 sm:w-1/4"  src="@/assets/test.jpg" alt="">
           <img class="w-5/6 sm:w-1/4"  src="@/assets/test9.jpg" alt="">
-          <img class="w-5/6 sm:w-1/4"  src="@/assets/test4.jpg" alt="">        
+          <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye3.jpg" alt="">        
         </div>
                 <div class="flex flex-col items-center sm:justify-center sm:flex-row m-auto gap-3">
 
-        <img class="w-5/6 sm:w-1/4"  src="@/assets/test2.jpg" alt="">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye1.jpg" alt="">
         <img class="w-5/6 sm:w-1/4"  src="@/assets/test7.jpg" alt="">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/test6.jpg" alt="">
+</div>
+ <div class="flex flex-col items-center sm:justify-center sm:flex-row m-auto gap-3">
+
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/test2.jpg" alt="">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye2.jpg" alt="">
         <img class="w-5/6 sm:w-1/4"  src="@/assets/test6.jpg" alt="">
 </div>
       </div>
