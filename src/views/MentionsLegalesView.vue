@@ -19,7 +19,6 @@
              <div>
             <h2 class="font-bona-nova font-bold text-xl md:text-2xl lg:text-4xl leading-none">Éditeur du site :</h2>
             <p class="font-cabin">Hugo Beaurain</p>
-            <p class="font-cabin">Représenté par : André Chipeaux</p>
             <p class="font-cabin">Mail : hugo.beaurain@yahoo.com</p>
             </div>
             <div>
@@ -34,7 +33,7 @@
             rectification aux données vous concernant par simple demande mail, écrite ou téléphonique. Les étudiants
             de MMI ne peut être tenus responsables du contenu du site. Ce site est exploité par André Chipeaux : Motor Concept. La
             présentation et chacun des éléments, y compris les marques, logos et noms de domaine, apparaissant sur le
-            site <a class="text-blue-500" href="www.cnil.fr">www.cnil.fr</a> sont protégés par les lois en vigueur sur la propriété intellectuelle, et
+            site <a class="text-blue-500" href="http://atelier.andrechipeaux-motor.fr">http://atelier.andrechipeaux-motor.fr/</a> sont protégés par les lois en vigueur sur la propriété intellectuelle, et
             appartiennent à André Chipeaux : Motor Concept, ou font l'objet d'une autorisation d'utilisation. Aucun élément
             composant le Site ne peut être copié, reproduit, modifié, réédité, chargé, dénaturé, transmis ou distribué
             de quelque manière que ce soit, sous quelque support que ce soit, de façon partielle ou intégrale, sans
@@ -49,7 +48,7 @@
             </div>
             <div>
             <h2 class="font-bona-nova font-bold text-xl md:text-2xl lg:text-4xl leading-none">Graphisme, photos et illustrations :</h2>
-            <p class="font-cabin">Le webdesign a été réalisé par Hugo Beaurain. Le logo a été réalisé par XXXX. Les photographies appartiennent à André Chipeaux.</p>
+            <p class="font-cabin">Le webdesign a été réalisé par Hugo Beaurain. Les photographies appartiennent à André Chipeaux.</p>
             </div>
             <div>
             <h2 class="font-bona-nova font-bold text-xl md:text-2xl lg:text-4xl leading-none">Déclaration à la CNIL :</h2>
@@ -60,7 +59,7 @@
             </div>
             <div>
             <h2 class="font-bona-nova font-bold text-xl md:text-2xl lg:text-4xl leading-none">Litiges :</h2>
-            <p class="font-cabin">Les présentes conditions du site <a class="text-blue-500" href="www.cnil.fr">www.cnil.fr</a> sont régies par les lois françaises et toute
+            <p class="font-cabin">Les présentes conditions du site <a class="text-blue-500" href="http://atelier.andrechipeaux-motor.fr">http://atelier.andrechipeaux-motor.fr/</a> sont régies par les lois françaises et toute
             contestation ou litiges qui pourraient naître de l'interprétation ou de l'exécution de celles-ci seront de la
             compétence exclusive des tribunaux dont dépend le siège social de la société. La langue de référence, pour
             le règlement de contentieux éventuels, est le français.</p>
