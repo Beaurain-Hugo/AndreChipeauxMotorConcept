@@ -83,10 +83,10 @@ onMounted(() => {
                 <span>Filtrer</span>
             </label>
             <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-              <li><button @click="filtreRecent">Plus récents d'abord</button></li>
-              <li><button @click="filtreAncien">Plus anciens d'abord</button></li>
-              <li><button @click="filtreDecroissant">Mieux notés d'abord</button></li>
-              <li><button @click="filtreCroissant">Pis notés d'abord</button></li>
+              <li><button @click="filtreRecent">Les plus récents</button></li>
+              <li><button @click="filtreAncien">Les plus anciens</button></li>
+              <li><button @click="filtreDecroissant">Les meilleurs</button></li>
+              <li><button @click="filtreCroissant">Les moins bons</button></li>
             </ul>
           </div>
           <RouterLink to="/ajouteravisview" class="flex items-center bg-red-600 hover:bg-red-800 hover:text-white px-4 py-2 rounded-md">
