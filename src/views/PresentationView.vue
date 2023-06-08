@@ -94,12 +94,12 @@ onMounted(() => {
       <div>
         <div class="flex flex-col gap-4">
           <h2 class="font-bona-nova font-bold text-xl md:text-2xl lg:text-4xl leading-none">André Chipeaux, l'expert porsche</h2>
-          <div class="flex flex-row-reverse justify-between gap-2 items-center font-cabin text-sm md:text-base">
+          <div class="flex flex-row-reverse justify-end gap-2 items-center font-cabin text-sm md:text-base">
             <div>
               <p class="leading-none">Il découvre sa passion pour Porsche et les moteurs en rencontrant Georges Dessené qui prépare un moteur de Simca 1000.</p> 
               <p class="leading-none">C'est à la suite de cette rencontre qu'il façonnera dans son garage sa première Porsche, une 911 3.0 RS de 1974 en deux ans.</p>
             </div>
-              <img class="w-1/4 md:w-1/6" src="@/assets/P1120267_2.jpg" alt="">
+              <img class="w-1/4 md:w-1/6" src="@/assets/illustration5.jpg" alt="">
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@ onMounted(() => {
             <div>
               <p class="leading-none">Pas besoin de machine quand on a ses mains et ses outils ! Les moteurs sont entièrement montés à la main, sans l'intervention de machine. Cela requiert de la rigueur, du sérieux et beaucoup de passion, tout ce qui caractérise André Chipeaux !</p>
             </div>
-            <img class="w-1/4 md:w-1/6" src="@/assets/P1120267_2.jpg" alt="">
+            <img class="w-1/4 md:w-1/6" src="@/assets/illustration4.jpg" alt="">
           </div>
         </div>
       </div>
