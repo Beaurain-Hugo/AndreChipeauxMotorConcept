@@ -42,7 +42,7 @@ async function upsertAvis(dataForm) {
         type="select" 
         name="note"
         label="Note"
-        :options="['1','2','3','4','5']"
+        :options="['0', '1','2','3','4','5']"
         placeholder="Choisir une note"/>
         <FormKit name="commentaire" type="textarea" rows="10" label=  "Commmentaire"/>
         <button
