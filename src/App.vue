@@ -65,13 +65,13 @@ const menuFermer = ref(true)
 
   <footer class="flex flex-col items-center font-cabin md:items-stretch px-7 py-3 bg-Extended/blue-gray/750 text-neutral-50">
     <div class="flex flex-col md:flex-row md:justify-between gap-3 md:gap-0">
-      <a class="my-auto" href="/"><img class="w-full stroke-whte" src="@/assets/logoMotorConceptCouleur.svg" alt="Logo d'André Chipeaux Motor Concept"></a>
+      <a class="my-auto" href="/"><img class="w-full stroke-whte" src="@/assets/logoMotorConceptCouleur2.svg" alt="Logo d'André Chipeaux Motor Concept"></a>
       <div class="px-8 flex flex-col gap-5">
         <ul class="flex flex-col gap-2 text-sm lg:text-base">
           <li class="flex items-center gap-2"><img class="w-8 text-white" src="@/assets/facebook.png" alt=""> <a href="https://www.facebook.com/andre.chipeaux/" target="_blank">Andre.Chipeaux</a></li>
           <li class="flex items-center gap-2"><EnvelopeIcon class="w-8"/><a href="mailto:andrechipeaux@gmail.com">andrechipeaux@gmail.com</a></li>
           <li class="flex items-center gap-2"><PhoneIcon class="w-8"/><a href="tel:+33767710356">06 64 99 44 55</a></li>
-          <li class="flex items-center gap-2"><MapPinIcon class="w-8"/>1 Rue du charbonnier, 70423, Plancher-Bas</li>
+          <li class="flex items-center gap-2"><MapPinIcon class="w-8"/>1 Rue du charbonnier, 70400, Plancher-Bas</li>
         </ul>
       </div>
       <div class="md:flex items-center px-8 text-sm lg:text-base">
