@@ -64,17 +64,17 @@ onMounted(() => {
   <main class="flex flex-col gap-6">
     <div class="p-0 relative overflow-hidden">
 			<div class="h-[90vh] left-0">
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test2.jpg"/>
- 				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test5.jpg"/>
-        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test7.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test6.jpg"/>
-        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test11.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test8.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test3.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test4.jpg"/>
-				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test9.jpg"/>
-        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" src="../assets/test10.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test2.jpg"/>
+ 				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test5.jpg"/>
+        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test7.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test6.jpg"/>
+        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test11.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test8.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test3.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test4.jpg"/>
+				<img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test9.jpg"/>
+        <img id="carrousel" class="absolute h-[100vh] min-w-full top-0 left-0 z-0" alt="Image de l'atelier d'André Chipeaux" src="../assets/test10.jpg"/>
 
 			</div>
       <h1 class="absolute z-10 text-4xl font-bona-nova font-bold text-center text-white left-1/2 -translate-x-1/2 top-24 leading-none">André Chipeaux</h1>
@@ -87,7 +87,7 @@ onMounted(() => {
           <h2 class="font-bona-nova font-bold text-xl md:text-2xl lg:text-4xl leading-none">André Chipeaux, motoriste depuis 40 ans</h2>
           <div class="flex justify-between gap-2 items-center font-cabin text-sm md:text-base">
             <p class="leading-none">Sa carrière de motoriste professionnel commence en 1995. André Chipeaux est repéré par Manfred Fresinger après avoir visité son garage où se trouvait une voiture de sa conception. Il sera pris dès le lendemain dans les ateliers Fresinger Motorsport jusqu'à ce qu'il se décide à se lancer en freelance au début des années 2000 jusqu'à aujourd'hui.</p>
-            <img class="w-1/4 md:w-1/6 lg:w-1/6" src="@/assets/P1120267_2.jpg" alt="">
+            <img class="w-1/4 md:w-1/6 lg:w-1/6" src="@/assets/P1120267_2.jpg" alt="Image d'André Chipeaux en train de travailler">
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ onMounted(() => {
               <p class="leading-none">Il découvre sa passion pour Porsche et les moteurs en rencontrant Georges Dessené qui prépare un moteur de Simca 1000.</p> 
               <p class="leading-none">C'est à la suite de cette rencontre qu'il façonnera dans son garage sa première Porsche, une 911 3.0 RS de 1974 en deux ans.</p>
             </div>
-              <img class="w-1/4 md:w-1/6" src="@/assets/illustration5.jpg" alt="">
+              <img class="w-1/4 md:w-1/6" src="@/assets/illustration5.jpg" alt="Photogtaphie d'une voiture utilisant un moteur conçu par André Chipeaux pleine course">
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@ onMounted(() => {
             <div>
               <p class="leading-none">Pas besoin de machine quand on a ses mains et ses outils ! Les moteurs sont entièrement montés à la main, sans l'intervention de machine. Cela requiert de la rigueur, du sérieux et beaucoup de passion, tout ce qui caractérise André Chipeaux !</p>
             </div>
-            <img class="w-1/4 md:w-1/6" src="@/assets/illustration4.jpg" alt="">
+            <img class="w-1/4 md:w-1/6" src="@/assets/illustration4.jpg" alt="Image de l'atelier d'André Chipeaux montrant certains de ses outils">
           </div>
         </div>
       </div>

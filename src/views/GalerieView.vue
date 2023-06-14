@@ -7,21 +7,21 @@
       </div>
       <div class="flex flex-col gap-3">
         <div class="flex flex-col items-center sm:justify-center sm:flex-row m-auto gap-3">
-          <img class="w-5/6 sm:w-1/4"  src="@/assets/test.jpg" alt="">
-          <img class="w-5/6 sm:w-1/4"  src="@/assets/test9.jpg" alt="">
-          <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye3.jpg" alt="">        
+          <img class="w-5/6 sm:w-1/4"  src="@/assets/test.jpg" alt="Photographie d'un vilebrequin de moteur">
+          <img class="w-5/6 sm:w-1/4"  src="@/assets/test9.jpg" alt="Photographie d'un vilebrequin de moteur">
+          <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye3.jpg" alt="Photographie d'André Chipeaux et d'un pilote utilisant une voiture en arrière plan qui contient un moteur conçu par André Chipeaux">        
         </div>
                 <div class="flex flex-col items-center sm:justify-center sm:flex-row m-auto gap-3">
 
-        <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye1.jpg" alt="">
-        <img class="w-5/6 sm:w-1/4"  src="@/assets/test7.jpg" alt="">
-        <img class="w-5/6 sm:w-1/4"  src="@/assets/test6.jpg" alt="">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye1.jpg" alt="Photographie d'André Chipeaux et d'un pilote se serrant la main">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/test7.jpg" alt="Photographie de l'atelier d'André Chipeaux">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/test6.jpg" alt="Photographie de l'atelier d'André Chipeaux montrant ses outils">
 </div>
  <div class="flex flex-col items-center sm:justify-center sm:flex-row m-auto gap-3">
 
-        <img class="w-5/6 sm:w-1/4"  src="@/assets/test2.jpg" alt="">
-        <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye2.jpg" alt="">
-        <img class="w-5/6 sm:w-1/4"  src="@/assets/test6.jpg" alt="">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/test2.jpg" alt="Photographie de l'atelier d'André Chipeaux">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/rallye2.jpg" alt="Photogtaphie d'une voiture utilisant un moteur conçu par André Chipeaux pleine course">
+        <img class="w-5/6 sm:w-1/4"  src="@/assets/test3.jpg" alt="Photographie dans moteur dans l'atelier d'André Chipeaux">
 </div>
       </div>
             </div>
