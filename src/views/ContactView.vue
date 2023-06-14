@@ -94,7 +94,7 @@
         let marker = Leaflet.marker([47.746416,6.7298049], {icon: myIcon}).addTo(map)
 
         // Ajout d'une infobulle
-        marker.bindPopup("André Chipeaux: Motor Concept, 1 Rue du charbonnier, 70423, Plancher-Bas")
+        marker.bindPopup("André Chipeaux: Motor Concept, 1 Rue du charbonnier, 70400, Plancher-Bas")
 
 
 
